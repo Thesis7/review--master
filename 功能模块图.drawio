@@ -7,20 +7,73 @@
         <mxCell id="_uf0qR5cUyTxKE8fxkCO-5" value="管理员系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="130" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_uf0qR5cUyTxKE8fxkCO-7" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="220" width="140" height="40" as="geometry" />
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-7" target="_uf0qR5cUyTxKE8fxkCO-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="340" />
+              <mxPoint x="55" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="_uf0qR5cUyTxKE8fxkCO-8" value="采集设备管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="220" width="140" height="40" as="geometry" />
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-7" target="_uf0qR5cUyTxKE8fxkCO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-7" target="_uf0qR5cUyTxKE8fxkCO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-7" target="_uf0qR5cUyTxKE8fxkCO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-7" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_uf0qR5cUyTxKE8fxkCO-9" value="Mock工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="220" width="140" height="40" as="geometry" />
+          <mxGeometry x="380" y="280" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_uf0qR5cUyTxKE8fxkCO-10" value="多源数据采集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="220" width="140" height="40" as="geometry" />
+          <mxGeometry x="540" y="280" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_uf0qR5cUyTxKE8fxkCO-11" value="数据采集记录管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="220" width="140" height="40" as="geometry" />
+          <mxGeometry x="700" y="280" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-12" value="添&lt;div&gt;加&lt;/div&gt;&lt;div&gt;用&lt;/div&gt;&lt;div&gt;户&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-13" value="修&lt;div&gt;改&lt;/div&gt;&lt;div&gt;用&lt;/div&gt;&lt;div&gt;户&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-15" value="删&lt;div&gt;除&lt;/div&gt;&lt;div&gt;用&lt;/div&gt;&lt;div&gt;户&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-16" value="查&lt;div&gt;询&lt;/div&gt;&lt;div&gt;用&lt;/div&gt;&lt;div&gt;户&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-21" target="_uf0qR5cUyTxKE8fxkCO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-21" target="_uf0qR5cUyTxKE8fxkCO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-21" target="_uf0qR5cUyTxKE8fxkCO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uf0qR5cUyTxKE8fxkCO-21" target="_uf0qR5cUyTxKE8fxkCO-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-21" value="采集设备管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-22" value="添&lt;div&gt;加&lt;/div&gt;&lt;div&gt;设&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-23" value="修&lt;div&gt;改&lt;div&gt;设&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-24" value="删&lt;div&gt;除&lt;/div&gt;&lt;div&gt;设&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="30" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_uf0qR5cUyTxKE8fxkCO-25" value="查&lt;div&gt;询&lt;/div&gt;&lt;div&gt;设&lt;/div&gt;&lt;div&gt;备&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="30" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
