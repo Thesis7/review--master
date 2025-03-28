@@ -288,6 +288,42 @@
         <mxCell id="K0Fhoypk4YpixcWQolRQ-40" value="收集状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1172.5" y="593" width="87" height="58" as="geometry" />
         </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-43" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-49" target="K0Fhoypk4YpixcWQolRQ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-44" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-49" target="K0Fhoypk4YpixcWQolRQ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-49" target="K0Fhoypk4YpixcWQolRQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-49" value="压力采集数据记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1463" y="596.5" width="102" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-50" value="记录编号" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="1332" y="593" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-51" value="压力测量值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="515" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-52" value="压力单位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470.5" y="515" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-54" value="收集错误码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="672" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-56" value="最大压力阈值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1609" y="515" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-57" value="下次校准日期" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1609" y="593" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-58" value="收集时间" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1609" y="672" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-59" value="收集状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470.5" y="673" width="87" height="58" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
