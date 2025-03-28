@@ -249,6 +249,45 @@
         <mxCell id="K0Fhoypk4YpixcWQolRQ-16" value="设备状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="921" y="1019" width="87" height="58" as="geometry" />
         </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-34" target="K0Fhoypk4YpixcWQolRQ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-34" target="K0Fhoypk4YpixcWQolRQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-34" target="K0Fhoypk4YpixcWQolRQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-34" target="K0Fhoypk4YpixcWQolRQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-34" target="K0Fhoypk4YpixcWQolRQ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="K0Fhoypk4YpixcWQolRQ-34" target="K0Fhoypk4YpixcWQolRQ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-34" value="温度采集数据记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="596.5" width="102" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-35" value="记录编号" style="ellipse;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="894" y="593" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-36" value="温度测量值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="894" y="515" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-37" value="温度单位" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1032.5" y="515" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-38" value="收集时间" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="515" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-39" value="收集错误码" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1032.5" y="673" width="87" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="K0Fhoypk4YpixcWQolRQ-40" value="收集状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="593" width="87" height="58" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
