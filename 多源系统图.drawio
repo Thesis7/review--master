@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="HsD6gubTZrpBO62Y5JLq">
-    <mxGraphModel dx="1026" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SN45HEAFAG54shvdTcmM-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="560" width="334" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="LU6KxbjBfPDqEVYcqJ9--38" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="67" y="1184" width="460" height="340" as="geometry" />
         </mxCell>
@@ -109,11 +112,21 @@
         <mxCell id="SN45HEAFAG54shvdTcmM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SN45HEAFAG54shvdTcmM-4" target="SN45HEAFAG54shvdTcmM-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-14" value="发送温度采集数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SN45HEAFAG54shvdTcmM-9">
+          <mxGeometry x="-0.5796" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SN45HEAFAG54shvdTcmM-4" value="温度传感器设备" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.merchandising_server;" vertex="1" parent="1">
           <mxGeometry x="65" y="568" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SN45HEAFAG54shvdTcmM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SN45HEAFAG54shvdTcmM-5" target="SN45HEAFAG54shvdTcmM-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-15" value="发送压力采集数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SN45HEAFAG54shvdTcmM-10">
+          <mxGeometry x="-0.6271" y="-2" relative="1" as="geometry">
+            <mxPoint x="32" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SN45HEAFAG54shvdTcmM-5" value="压力传感器设备" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.merchandising_server;" vertex="1" parent="1">
           <mxGeometry x="65" y="704" width="75" height="90" as="geometry" />
@@ -121,11 +134,58 @@
         <mxCell id="SN45HEAFAG54shvdTcmM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SN45HEAFAG54shvdTcmM-6" target="SN45HEAFAG54shvdTcmM-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-16" value="发送流量采集数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SN45HEAFAG54shvdTcmM-11">
+          <mxGeometry x="-0.6533" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SN45HEAFAG54shvdTcmM-6" value="流量传感器设备" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.merchandising_server;" vertex="1" parent="1">
           <mxGeometry x="65" y="835" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SN45HEAFAG54shvdTcmM-8" value="" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="280" y="708.82" width="68.15" height="80.18" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-12" value="RabbitMQ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288.15" y="734.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="560" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-18" value="多源数据采集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="590" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-19" value="数据标准化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-20" value="持久化存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-21" value="数据管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-22" value="采集端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="516" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.967;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SN45HEAFAG54shvdTcmM-17" target="SN45HEAFAG54shvdTcmM-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="493" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-35" value="监听采集数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SN45HEAFAG54shvdTcmM-30">
+          <mxGeometry x="0.2725" y="-2" relative="1" as="geometry">
+            <mxPoint x="18" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-32" value="采集设备管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-33" value="用户管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="890" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SN45HEAFAG54shvdTcmM-34" value="处理端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527" y="516" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
