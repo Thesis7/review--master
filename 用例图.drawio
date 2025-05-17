@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.3.0">
   <diagram name="第 1 页" id="yqkmy5sBXUVOjIypKYsF">
-    <mxGraphModel dx="634" dy="513" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="766" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -271,16 +271,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="894" y="1446" width="30" height="60" as="geometry" />
+          <mxGeometry x="891" y="1495" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1386" width="226" height="273" as="geometry" />
+          <mxGeometry x="1000" y="1386" width="230" height="333" as="geometry" />
         </mxCell>
-        <mxCell id="jaOJm7M-wQFjWifymBQV-5" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jaOJm7M-wQFjWifymBQV-5" value="数据采集" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1049" y="1429" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-6" value="卫星突发信号解调系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="999" y="1386" width="227" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-7" value="信号解调" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1052.5" y="1502" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-8" value="数据持久化存储" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="1575" width="120" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
