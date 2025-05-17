@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jaOJm7M-wQFjWifymBQV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1386" width="407" height="450" as="geometry" />
+          <mxGeometry x="1000" y="1371" width="407" height="465" as="geometry" />
         </mxCell>
         <mxCell id="YVTTXJFYwQfTiN0i_-cF-1" value="登录功能" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="661" width="40" height="250" as="geometry" />
@@ -296,9 +296,6 @@
         <mxCell id="jaOJm7M-wQFjWifymBQV-5" value="数据采集" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1449" width="120" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="jaOJm7M-wQFjWifymBQV-6" value="卫星突发信号解调系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1001" y="1356" width="338" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jaOJm7M-wQFjWifymBQV-7" target="jaOJm7M-wQFjWifymBQV-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -362,6 +359,9 @@
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-29" value="存储错误提示" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1234" y="1770" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-34" value="卫星突发信号解调系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1373" width="408" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
