@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jaOJm7M-wQFjWifymBQV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1386" width="339" height="333" as="geometry" />
+        </mxCell>
         <mxCell id="YVTTXJFYwQfTiN0i_-cF-1" value="登录功能" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="661" width="40" height="250" as="geometry" />
         </mxCell>
@@ -270,23 +273,35 @@
         <mxCell id="YVTTXJFYwQfTiN0i_-cF-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YVTTXJFYwQfTiN0i_-cF-58" target="YVTTXJFYwQfTiN0i_-cF-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jaOJm7M-wQFjWifymBQV-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="891" y="1495" width="30" height="60" as="geometry" />
+        <mxCell id="jaOJm7M-wQFjWifymBQV-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="jaOJm7M-wQFjWifymBQV-2" target="jaOJm7M-wQFjWifymBQV-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jaOJm7M-wQFjWifymBQV-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1386" width="230" height="333" as="geometry" />
+        <mxCell id="jaOJm7M-wQFjWifymBQV-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="jaOJm7M-wQFjWifymBQV-2" target="jaOJm7M-wQFjWifymBQV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="jaOJm7M-wQFjWifymBQV-2" target="jaOJm7M-wQFjWifymBQV-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="885" y="1544" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-5" value="数据采集" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1049" y="1429" width="120" height="46" as="geometry" />
+          <mxGeometry x="1020" y="1449" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-6" value="卫星突发信号解调系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="999" y="1386" width="227" height="30" as="geometry" />
+          <mxGeometry x="1001" y="1356" width="338" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-7" value="信号解调" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1052.5" y="1502" width="120" height="46" as="geometry" />
+          <mxGeometry x="1018" y="1541" width="120" height="46" as="geometry" />
         </mxCell>
         <mxCell id="jaOJm7M-wQFjWifymBQV-8" value="数据持久化存储" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="1575" width="120" height="46" as="geometry" />
+          <mxGeometry x="1023" y="1633" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-9" value="I-Q数据记录文件校验" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="1405" width="120" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="jaOJm7M-wQFjWifymBQV-10" value="校验提示" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="1474" width="120" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
